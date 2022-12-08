@@ -1,13 +1,8 @@
 <html>
 <title>3axis | Vanilla Demo</title>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-X8R7G7PHHM"></script>
 <script>
     window.axisToken = '3B4LGEZHXA';
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-X8R7G7PHHM');
 </script>
 <body>
 <ax-scene id="hello-world" hdr-environment="url: day.hdr">
@@ -24,7 +19,7 @@
                 shadow="receive: false" interactor="fastTravel: 15" visible="false"></ax-box>
     </ax-obj>
 </ax-scene>
-<script src="/assets/scripts/3axis-core.min.js?v=1"></script>
+<script src="./assets/scripts/3axis-core.min.js?v=1"></script>
 <script>
     //Pick up where you left off. Useful in dev. Defaults to false
     axis.settings.rememberPosition = true;
